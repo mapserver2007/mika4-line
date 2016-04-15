@@ -2,8 +2,8 @@
 require 'yaml'
 
 config_files = [
-  YAML.load_file(File.dirname(__FILE__) + "/module/config/hubot.yml"),
-  YAML.load_file(File.dirname(__FILE__) + "/module/config/hubot.secret.yml")
+  YAML.load_file(File.dirname(__FILE__) + "/config/hubot.yml"),
+  YAML.load_file(File.dirname(__FILE__) + "/config/hubot.secret.yml")
 ]
 
 config = {}
