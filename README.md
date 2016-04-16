@@ -27,10 +27,9 @@ $> bin/hubot --name mika4
 * LINE Developersにてアカウントを取得する
 * FIXIEでIPアドレスを固定し、`Server IP Whitelist`に登録する
 * コールバックURLを指定する
+* 秘密情報は`config/hubot.secret.yml`に記述する
 
 ## Herokuデプロイ
-SlackのAPIキーをslack.ymlに書いておく。
-
 ```sh
 $> heroku login
 $> heroku create
