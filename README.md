@@ -46,7 +46,7 @@ $> rake
     * UTCなので開始時間の9時間前を指定。開始時間は8:00なので23:00を指定
 
 ## LINEにインストール
-![QRCODE](config/qrcode.png)
+QRコードを読ませる。
 
 ## License
 Licensed under the MIT  
